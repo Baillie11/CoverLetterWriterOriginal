@@ -1,0 +1,89 @@
+#container {
+    display: flex;
+    border: 2px solid black;
+    background-color: rgba(212, 250, 212, 0.15);
+    height: auto;
+}
+
+#container1 {
+    width: 75%;
+    height: 980px;
+}
+
+#container2 {
+    width: 25%;
+    height: 900px;
+}
+
+#templatesearchheading {
+    text-align: center;
+}
+
+#templates {
+    display: flex;
+    height: 20%;
+    margin-bottom: 8px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+h3 {
+    color: grey;
+}
+
+#letterbodyheading {
+    text-align: center;
+}
+
+#letterbody {
+    height: 620px;
+    margin: 3px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+#inputfieldsheading {
+    text-align: center;
+}
+
+#inputfields {
+    height: 20%;
+    margin: 5px;
+    padding: 3px;
+}
+
+#blankfieldsheading {
+    text-align: center;
+}
+
+#blankfields {
+    height: 30%;
+    margin: 3px;
+}
+
+#precompletedfieldsheading {
+    text-align: center;
+}
+
+#precompletedfields {
+    height: 50%;
+    margin: 3px;
+}
+
+.draggable {
+    display: flex;
+    height: auto;
+    cursor: move;
+    background-color: rgba(209, 243, 238, 0.486);
+    border: 1px solid #333;
+    border: radius 20px;
+    margin: 6px;
+    padding: 6px;
+    box-shadow: -3px 4px 4px rgba(0, 0, 0.1, 0.1);
+}
+
+.draggable.dragging {
+    opacity: .5;
+}
